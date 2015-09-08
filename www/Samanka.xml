@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custombuttons xmlns="http://toolbar.google.com/custombuttons/">
+  <button>
+    <title>Šaman-ka</title>
+    <description>Šamanské semináře při tanci v rytmu šamanského bubnování</description>
+    <site>http://www.saman-ka.cz/</site>
+     <icon mode="base64" type="image/x-icon">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJtSURBVHjaYgwQ5GeAgP//GRgZoQwGhjc6
+emlJ4XuTKnhig7TlBPa2zvnF8B8ozcIABxDVMMB/8pzZnD7dLW1M3GIzJ/X9Zvj/D6yBMUCAD2Ew
+kAGz5/+//4L/mLWLQr88vH5x0Znf//5BDGJCUQ235///Px9/2hfGW2oKWZopidmKgmSAwlAngR2N
+bMPf778Da7NsPNW5ef+zfBf79uf3koPrIH5ggpoKQjCf/P/PbKTjkxp++cyh3sjOtbvvG9i7cjEw
+g4znZmUB2wNVC/e9XXQc15+XHHxixy8/ufF06aOV278w/GXmZmFkY2bW4GCHqUSEUm5rza/3t//9
+/i/LzSoiwPX25+/3z94z87IBpaAaGFHDVNbFRU2C+fnDx2qOJoIa8jLGGrzfPj568hZoKLMGJzuQ
++vL+O9BHzP8ZGVlAOp8/fsClpMzE9Ovrh7e/371j//9HztPo+OpjIO9pcHIAVRjoKXELsb5n+PPr
+zQ9mZuZ3dx9ee/j878sXnO8/Wvp7f/3y4eTyHQ9vvwa6Baqh5cJZWeUfT3//4nr9+Ss7w79vf/88
+fnH74oOrF58F58bevXdpR+PO3xygSINq+PHru4Ghmp2hqoa79t3P75keffjNwyoiwqeYHM339/7S
+Oevfvf3OzMIM9jRYw6VdR3nUDQX5/zP9+mGlrypvI3/3508jX0cH8Z9zlmx6s/8VGzcbw7//CBvY
+uFgvbt73WVJNRYzj/ad3nKwcJoqCz+5eWle7++ubX6zcrEDv/v36m4mNmRGavGHpgvvD359e2iz/
+PzFvf/yZh4GJFZJ2GP7/+cPw5S+jIDtAgAEAj0UK0QHbbokAAAAASUVORK5CYII=</icon>
+  <update>http://www.saman-ka.cz/Samanka.xml</update></button>
+</custombuttons>

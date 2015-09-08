@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="Prožijte víkendový Šamanský seminář. Při tanci v rytmu bubnů sladíte tlukot svého srdce s tlukotem srdce Matky Země. Vytvoříte tak silné energetické pole.">
+		<meta name="keywords" content="Šamanka, Šamanský seminář, šamanské bubnování, šamanismus">
+		<meta name="robots" content="{$robots}" n:ifset="$robots">
+		<title>Šaman-Ka - {$title}</title>
+		<link rel="stylesheet" href="samanka.css" type="text/css">
+		<link rel="shortcut icon" href="/favicon.ico" />
+	</head>
+	<body>
+		<div id="page">
+			<div id="head">
+				<img id="eagle" width="370" height="311" src="img/orel.png" alt="Šaman-ka" title="Šaman-ka" />
+				<a n:href="uvod"><img id="logo1" width="241" height="58" src="img/samanske.png" alt="Šamanské semináře" title="Šamanské semináře" /></a>
+				<a n:href="uvod"><img id="logo2" width="204" height="42" src="img/seminare.png" alt="Šamanské semináře" title="Šamanské semináře" /></a>
+				<div id="menu">
+					<ul>
+						<li{ifCurrent uvod } class="current"{/ifCurrent}><a n:href="uvod">Úvod</a></li>
+						<li{ifCurrent zdenkaOcelikova } class="current"{/ifCurrent}><a n:href="zdenka-ocelikova">Kdo jsem</a></li>
+						<li{ifCurrent mojeCestaSamana } class="current"{/ifCurrent}><a n:href="moje-cesta-samana">Moje cesta</a></li>
+						<li{ifCurrent samanskeRuce } class="current"{/ifCurrent}><a n:href="samanske-ruce">Šamanské ruce</a></li>
+						<li{ifCurrent samanismus } class="current"{/ifCurrent}><a n:href="samanismus">Šamanismus</a></li>
+						<li{ifCurrent samanKa } class="current"{/ifCurrent}><a n:href="saman-ka">Šaman-Ka</a></li>
+						<li{ifCurrent matkaMeera } class="current"{/ifCurrent}><a n:href="matka-meera">Matka Meera</a></li>
+						<li{ifCurrent kontakt } class="current"{/ifCurrent}><a n:href="kontakt">Kontakt</a></li>
+					</ul>
+					<div id="amarhea">
+						<img width="98" height="148" src="img/amarhea.png" alt="Amarhea" />
+					</div>
+				</div>
+				<div id="content">
+					{include #content}
+				</div>
+				<div class="clr"></div>
+				<div id="design">
+					Design by<br />
+					<a href="mailto:veronikazikanova@centrum.cz">veronikazikanova@centrum.cz</a>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-27641691-8']);
+			_gaq.push(['_trackPageview']);
+
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+	</body>
+</html>
