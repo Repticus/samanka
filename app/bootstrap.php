@@ -26,7 +26,8 @@ $configurator->createRobotLoader()
 $container = $configurator->createContainer();
 
 // Setup router
-$container->router[] = new Route('<action>', 'Samanka:uvod');
+$container->router[] = new Route('uvod', 'Samanka:domu', Route::ONE_WAY);
+$container->router[] = new Route('<action>', 'Samanka:domu');
 
 // Configure and run the application!
 $container->application->run();
