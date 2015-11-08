@@ -5,6 +5,9 @@
 # http://nette.org/security-warning
 #
 common:
+	parameters:
+		toplist: true #include toplist code
+
 	php:
 		date.timezone: Europe/Prague
 		# session.save_path: "%tempDir%/sessions"
@@ -16,3 +19,5 @@ common:
 
 production < common:
 development < common:
+	parameters:
+		toplist: false
